@@ -1,0 +1,18 @@
+{
+  "name": "morevi-scripts",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts",
+    "generate-wolt": "bun ./lib/generate_wolt.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ts-pattern": "^5.0.6"
+  }
+}
