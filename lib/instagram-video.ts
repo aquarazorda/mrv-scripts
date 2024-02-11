@@ -1,5 +1,5 @@
 import { readFile, readFileSync, readdirSync, unlinkSync } from "fs";
-import names from "./names.json";
+import names from "../names.json";
 // ffmpeg -loop 1 -i ima.jpg -ss 00:01:45 -i snd.mp3 -t 00:01:00 -vf "scale=1080:1920:force_original_aspect_ratio=decrease,pad=1080:1920:(ow-iw)/2:(oh-ih)/2" -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest out.mp4
 
 try {

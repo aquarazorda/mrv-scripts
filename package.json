@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun index.ts",
+    "instagram": "bun ./lib/instagram-video.ts",
     "generate-wolt": "bun ./lib/generate_wolt.ts"
   },
   "devDependencies": {
